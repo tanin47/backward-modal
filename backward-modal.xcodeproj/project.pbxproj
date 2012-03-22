@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F29B2ECC151AE0B4000C15BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29B2ECB151AE0B4000C15BB /* UIKit.framework */; };
+		F29B2ECE151AE0B4000C15BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29B2ECD151AE0B4000C15BB /* Foundation.framework */; };
+		F29B2ED0151AE0B4000C15BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29B2ECF151AE0B4000C15BB /* CoreGraphics.framework */; };
+		F29B2ED6151AE0B4000C15BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F29B2ED4151AE0B4000C15BB /* InfoPlist.strings */; };
+		F29B2ED8151AE0B4000C15BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B2ED7151AE0B4000C15BB /* main.m */; };
+		F29B2EDC151AE0B4000C15BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B2EDB151AE0B4000C15BB /* AppDelegate.m */; };
+		F29B2EE5151AE0CE000C15BB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B2EE3151AE0CE000C15BB /* RootViewController.m */; };
+		F29B2EE6151AE0CE000C15BB /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F29B2EE4151AE0CE000C15BB /* RootViewController.xib */; };
+		F29B2EEA151AE0EF000C15BB /* ModalController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B2EE8151AE0EF000C15BB /* ModalController.m */; };
+		F29B2EEB151AE0EF000C15BB /* ModalController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F29B2EE9151AE0EF000C15BB /* ModalController.xib */; };
+		F29B2EF4151AE4FC000C15BB /* UIViewController+PresentingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B2EF3151AE4FC000C15BB /* UIViewController+PresentingViewController.m */; };
+		F29B2EF8151AF8FE000C15BB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F29B2EF7151AF8FE000C15BB /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F29B2EC7151AE0B4000C15BB /* backward-modal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "backward-modal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29B2ECB151AE0B4000C15BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F29B2ECD151AE0B4000C15BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F29B2ECF151AE0B4000C15BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F29B2ED3151AE0B4000C15BB /* backward-modal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "backward-modal-Info.plist"; sourceTree = "<group>"; };
+		F29B2ED5151AE0B4000C15BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F29B2ED7151AE0B4000C15BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F29B2ED9151AE0B4000C15BB /* backward-modal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "backward-modal-Prefix.pch"; sourceTree = "<group>"; };
+		F29B2EDA151AE0B4000C15BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F29B2EDB151AE0B4000C15BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F29B2EE2151AE0CE000C15BB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F29B2EE3151AE0CE000C15BB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F29B2EE4151AE0CE000C15BB /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		F29B2EE7151AE0EF000C15BB /* ModalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalController.h; sourceTree = "<group>"; };
+		F29B2EE8151AE0EF000C15BB /* ModalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalController.m; sourceTree = "<group>"; };
+		F29B2EE9151AE0EF000C15BB /* ModalController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalController.xib; sourceTree = "<group>"; };
+		F29B2EF2151AE4FC000C15BB /* UIViewController+PresentingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PresentingViewController.h"; sourceTree = "<group>"; };
+		F29B2EF3151AE4FC000C15BB /* UIViewController+PresentingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PresentingViewController.m"; sourceTree = "<group>"; };
+		F29B2EF7151AF8FE000C15BB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F29B2EC4151AE0B4000C15BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29B2ECC151AE0B4000C15BB /* UIKit.framework in Frameworks */,
+				F29B2ECE151AE0B4000C15BB /* Foundation.framework in Frameworks */,
+				F29B2ED0151AE0B4000C15BB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F29B2EBC151AE0B4000C15BB = {
+			isa = PBXGroup;
+			children = (
+				F29B2EF7151AF8FE000C15BB /* README.md */,
+				F29B2ED1151AE0B4000C15BB /* backward-modal */,
+				F29B2ECA151AE0B4000C15BB /* Frameworks */,
+				F29B2EC8151AE0B4000C15BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F29B2EC8151AE0B4000C15BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F29B2EC7151AE0B4000C15BB /* backward-modal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F29B2ECA151AE0B4000C15BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F29B2ECB151AE0B4000C15BB /* UIKit.framework */,
+				F29B2ECD151AE0B4000C15BB /* Foundation.framework */,
+				F29B2ECF151AE0B4000C15BB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F29B2ED1151AE0B4000C15BB /* backward-modal */ = {
+			isa = PBXGroup;
+			children = (
+				F29B2EDA151AE0B4000C15BB /* AppDelegate.h */,
+				F29B2EDB151AE0B4000C15BB /* AppDelegate.m */,
+				F29B2ED2151AE0B4000C15BB /* Supporting Files */,
+				F29B2EE2151AE0CE000C15BB /* RootViewController.h */,
+				F29B2EE3151AE0CE000C15BB /* RootViewController.m */,
+				F29B2EE4151AE0CE000C15BB /* RootViewController.xib */,
+				F29B2EE7151AE0EF000C15BB /* ModalController.h */,
+				F29B2EE8151AE0EF000C15BB /* ModalController.m */,
+				F29B2EE9151AE0EF000C15BB /* ModalController.xib */,
+				F29B2EF2151AE4FC000C15BB /* UIViewController+PresentingViewController.h */,
+				F29B2EF3151AE4FC000C15BB /* UIViewController+PresentingViewController.m */,
+			);
+			path = "backward-modal";
+			sourceTree = "<group>";
+		};
+		F29B2ED2151AE0B4000C15BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F29B2ED3151AE0B4000C15BB /* backward-modal-Info.plist */,
+				F29B2ED4151AE0B4000C15BB /* InfoPlist.strings */,
+				F29B2ED7151AE0B4000C15BB /* main.m */,
+				F29B2ED9151AE0B4000C15BB /* backward-modal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F29B2EC6151AE0B4000C15BB /* backward-modal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29B2EDF151AE0B4000C15BB /* Build configuration list for PBXNativeTarget "backward-modal" */;
+			buildPhases = (
+				F29B2EC3151AE0B4000C15BB /* Sources */,
+				F29B2EC4151AE0B4000C15BB /* Frameworks */,
+				F29B2EC5151AE0B4000C15BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "backward-modal";
+			productName = "backward-modal";
+			productReference = F29B2EC7151AE0B4000C15BB /* backward-modal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F29B2EBE151AE0B4000C15BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F29B2EC1151AE0B4000C15BB /* Build configuration list for PBXProject "backward-modal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F29B2EBC151AE0B4000C15BB;
+			productRefGroup = F29B2EC8151AE0B4000C15BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F29B2EC6151AE0B4000C15BB /* backward-modal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F29B2EC5151AE0B4000C15BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29B2ED6151AE0B4000C15BB /* InfoPlist.strings in Resources */,
+				F29B2EE6151AE0CE000C15BB /* RootViewController.xib in Resources */,
+				F29B2EEB151AE0EF000C15BB /* ModalController.xib in Resources */,
+				F29B2EF8151AF8FE000C15BB /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F29B2EC3151AE0B4000C15BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29B2ED8151AE0B4000C15BB /* main.m in Sources */,
+				F29B2EDC151AE0B4000C15BB /* AppDelegate.m in Sources */,
+				F29B2EE5151AE0CE000C15BB /* RootViewController.m in Sources */,
+				F29B2EEA151AE0EF000C15BB /* ModalController.m in Sources */,
+				F29B2EF4151AE4FC000C15BB /* UIViewController+PresentingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F29B2ED4151AE0B4000C15BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F29B2ED5151AE0B4000C15BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F29B2EDD151AE0B4000C15BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F29B2EDE151AE0B4000C15BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F29B2EE0151AE0B4000C15BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "backward-modal/backward-modal-Prefix.pch";
+				INFOPLIST_FILE = "backward-modal/backward-modal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos5.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F29B2EE1151AE0B4000C15BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "backward-modal/backward-modal-Prefix.pch";
+				INFOPLIST_FILE = "backward-modal/backward-modal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos5.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F29B2EC1151AE0B4000C15BB /* Build configuration list for PBXProject "backward-modal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29B2EDD151AE0B4000C15BB /* Debug */,
+				F29B2EDE151AE0B4000C15BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29B2EDF151AE0B4000C15BB /* Build configuration list for PBXNativeTarget "backward-modal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29B2EE0151AE0B4000C15BB /* Debug */,
+				F29B2EE1151AE0B4000C15BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F29B2EBE151AE0B4000C15BB /* Project object */;
+}
