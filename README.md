@@ -39,6 +39,10 @@ Author
 Tanin Na Nakorn
 
 
+
 License
-------------------------
-It's under Tanin License, which means you can do whatever you want with it.
+---------
+
+Do What The Fuck You Want To Public License (http://sam.zoy.org/wtfpl/)
+
+0. You just DO WHAT THE FUCK YOU WANT TO.
